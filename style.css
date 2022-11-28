@@ -1,0 +1,296 @@
+* {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol !important; 
+    font-weight: 400;
+    box-sizing: border-box;
+   
+}
+body {
+
+    font-weight: 400;
+        line-height: 1.4;
+        font-size: 1.6rem;
+        color: #1c1d1f;
+        margin: 0;
+}
+
+ .rounded-pill { 
+    max-width: 654px !important;
+
+padding: 12px 15px !important;
+    border: 1px solid #1c1d1f;
+    
+} 
+.navbar {
+            box-shadow: 0px 0px 20px rgba(23, 20, 20, 0.08), 0 0px 20px rgba(17, 16, 16, 0.08);
+}
+nav {
+    background-color:#f8f9fa !important;
+    height: 74px;
+    font-size: 14px;
+white-space: nowrap;
+background-color:#f8f9fa !important;
+}
+nav input {
+background-color:#f8f9fa !important;
+}
+nav input:focus 
+{
+    border: 0;
+}
+.position-absolute {
+position: absolute;
+left: 15px;
+top: 13px;
+z-index: 2;
+font-weight: 600 !important;
+}
+nav .bi-globe2 {
+ border: 1px solid black;
+padding: 10px !important;
+margin-left: -10px;
+}
+
+nav .btn {
+    border-radius: 0px !important;
+margin-right: 10px;
+font-size: 14px !important;
+font-weight: bold;
+    line-height: 1.2;
+    
+}
+.btn {
+    border-radius: 0 !important;
+}
+.udemy-business-card .btn {
+    padding: 10px 12px !important;
+    font-weight: bold !important;
+}
+.login-btn {
+ padding: 10px 20px !important
+}
+.signup-btn {
+  padding: 12 18px !important
+}
+.hero {
+    background-image: url("./assets/hero2.jpeg") !important;
+        background-color: #cccccc;
+        height: 400px;
+}
+.dropdown-item {
+    font-size: 14px !important;
+}
+.dropdown-menu {
+    width: 300px !important;
+        height: 400px !important;
+}
+.billboard-banner {
+    width: 420px;
+    /* height: 150px; */
+    top: 65px;
+    left: 75px;
+    
+font-size: 16px;
+font-weight: light;
+    color: #1c1d1f;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+.billboard-title {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol !important;
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 32px;
+        letter-spacing: 1.1;
+}
+.headline-text {
+        font-weight: 600;
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol !important;
+    letter-spacing: 1.1;
+    font-size: 32px !important;
+}
+ .billboard-banner .headline-sub  {
+    font-weight: 300;
+        letter-spacing: 1.4 !important;
+    font-size: 24px !important;
+}
+
+.courses_categories li {
+    margin-right: 20px;
+    font-weight: bolder;
+    color: #6a6783;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.courses_categories li:hover,
+.course-active {
+    color: #1c1d1f !important;
+}
+.courses-selection-heading {
+font-size: 24px;
+font-weight: bold;
+    line-height: 1.4 !important;
+    margin-bottom: 8px !important;
+    /* letter-spacing: ; */
+}
+
+.courses-selection-text {
+    text-overflow: ellipsis;
+        margin-bottom: 1.6rem;
+            max-width: 820px;
+            letter-spacing: 1.2;
+}
+
+.courses-selection .btn {
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 14px !important;
+
+}
+.carousel-inner .card-body {
+  margin-left: -15px;
+}
+
+
+.carousel-inner img  {
+    width: 232px;
+    height: 132px;
+    border-radius: 0;
+}
+.carousel-inner a  {
+    text-decoration: none !important;
+}
+.carousel-inner h5  {
+    font-size: 16px !important;
+    font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02rem;
+        color: #1c1d1f !important;
+}
+.carousel-inner h4 {
+    font-size: 12px !important;
+    font-weight: 300;
+        line-height: 1.2;
+        letter-spacing: -.02rem;
+        /* color: #1c1d1f !important; */
+}
+
+ .bestseller {
+    border: 0;
+    font-weight: bolder;
+    font-size: 10px !important;
+background-color: #eceb98;
+ padding: 5px 8px !important ;
+ color:#3d3c0a; 
+ 
+
+}
+.partner-heading {
+
+font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol !important;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1.2;
+}
+.partner-text, .courses-selection-text {
+font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-top : 8px;
+    margin-bottom: 24px
+
+}
+.partner-logos {
+    list-style: none !important;
+}
+
+.card-text {
+    font-size: 19px;
+color: #3c3f3f !important;
+line-height: 1.4;
+letter-spacing: 1.4;
+
+}
+.udemy-business-card li {
+    margin: 8px;
+
+  
+}
+.udemy-business-card h3 {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol !important;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.35;
+        letter-spacing: -.02rem;
+        margin-top: 18px;
+}
+.udemy-business-card .btn {
+    font-weight: 700;
+}
+.topics {
+    font-size: 14px !important;
+    background: #f7f9fa;
+}
+.topics a {
+    font-size: 16px !important;
+    color: #5624d0;
+    font-weight: bold;
+    letter-spacing: 0.5px !important;
+
+}
+.topics li a {
+    margin-bottom: 8px;
+}
+.topics h5 {
+    font-size: 19px !important;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.topics h2 {
+    font-weight: bold;
+    font-size: 24px !important;
+}
+.topics span {
+    display: inline-;
+    margin-top: 9px;
+}
+.explore button {
+    font-size: 14px !important;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 10px 15px;
+}
+
+footer {
+    background: #1c1d1f;
+    color: #ffffff !important;
+    border-top: 1px solid #3e4143 !important;
+}
+
+.footer-heading {
+    font-size: 19px;
+    font-weight: bolder;
+
+}
+
+
+
+.footer {
+    background: #1c1d1f;
+
+    font-size: 14px;
+
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
+.partners {
+    text-align: center;
+    color: #1c1d1f;
+    max-width: 1270px;
+    margin: 100px auto;
+
+}
